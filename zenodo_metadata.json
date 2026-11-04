@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "title": "Machine-Verified Formal Proofs in Discrete Algebra and Superlinear Fluid Enstrophy Explosions in Lean 4",
+    "upload_type": "software",
+    "description": "This repository provides self-contained, machine-verified formal mathematical proofs implemented in the Lean 4 interactive theorem prover (v4.33+), requiring zero external dependencies. The archive contains two central formal results: (1) The Universal Pisano Period in Z/9Z: We prove that every second-order linear recurrence sequence in the finite ring Z/9Z (across all 81 possible initial conditions) collapses into a strictly periodic closed orbit of period dividing 24, and establish universal time invariance for all n in Nat by mathematical induction without sorry. (2) Finite-Time Blow-Up in Superlinear Vortex Stretching: We formalize the discrete Beale-Kato-Majda enstrophy explosion lemma, proving that any enstrophy sequence satisfying quadratic vortex stretching dominance E(n+1) >= E(n)^2 with E(0) >= 2 is bounded from below by a double-exponential tower E(n) >= 2^(2^n). We formally prove that for any finite uniform bound M in Nat, the enstrophy breaks global regularity and exceeds M in a finite number of steps N*, proving the impossibility of global smooth boundedness under superlinear stretching. Both theorems compile with exit code 0.",
+    "creators": [
+      {
+        "name": "Olivaes, Bruno Luçardo",
+        "affiliation": "Independent Researcher, Brazil",
+        "orcid": "0009-0003-8857-7945"
+      }
+    ],
+    "keywords": [
+      "Lean 4",
+      "Formal verification",
+      "Interactive theorem proving",
+      "Pisano period",
+      "Navier-Stokes equations",
+      "Beale-Kato-Majda criterion",
+      "Enstrophy blow-up",
+      "Modular arithmetic"
+    ],
+    "license": "MIT",
+    "access_right": "open"
+  }
+}
+
